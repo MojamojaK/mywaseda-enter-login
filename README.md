@@ -1,5 +1,6 @@
 # mywaseda-enter-login
 Lightweight Google Chrome Extension enabling enter-key login for MyWaseda
+
 エンターキーでMyWasedaでログインするためのGoogle Chrome用拡張機能
 
 ## インストール方法
