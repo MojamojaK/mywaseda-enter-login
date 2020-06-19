@@ -1,0 +1,13 @@
+{
+    "name": "MyWaseda Enter Login",
+    "version": "1.0",
+    "description": "MyWaseda Enter Login",
+    "permissions": ["activeTab", "webNavigation", "*://iaidp.ia.waseda.jp/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://iaidp.ia.waseda.jp/*"],
+            "js": ["trigger.js"]
+        }
+    ],
+    "manifest_version": 2
+}
